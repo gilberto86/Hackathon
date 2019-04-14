@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e5e5e5;
+    
+
+}
+p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 5px 0px;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+header{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#header-title{
+    color: #17a4a3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-subtitle{
+    width: 200px;
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fab234;
+}
+
+.content-wrapper{
+    padding: 5px 0px;
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.content-title{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.content-title2{
+
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+table{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.content-cab{
+    background-color: #dcdcdc;
+}
+
+a{
+    color: red;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.content-red{
+    color:orangered;
+}
+
+.foo{
+    
+    float: left;
+    
+}
+
+.bar{
+    
+    padding-left: 100px;
+}
+
+.p1{
+    text-align: center;
+}
+
+.cont-red{
+    color: red;
+}
+
+.content-image{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+
+
+.article-table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.article-table > thead{
+    background-color: #17a4a3;
+    
+}
+thead tr td{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    width: 50%;
+    
+}
+
+.article-table > tbody{
+    background-color: white;
+}
+
+tbody tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
